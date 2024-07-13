@@ -1,0 +1,5 @@
+For open ource contribution 
+Forst understand the project and if you want to contributr to it then its very important to communicate with the owner about your idea and this can be done by simply going to the issues section and adding your idea.
+Then fork the project this will add the project as a folder to your repository.
+Then clone it into a local repo and first make your own branch that you are going to push as you will not want to create a mess in their main branch and after adding your own code make sure you are at the same remote repository by running the command 'git remote -v' and then 'git push origin that_branch'.
+And then go to github and then compare and add a good cooment and description and make a pull request to the owner of the open source. This pull request is made to merge our branch to their main branch.

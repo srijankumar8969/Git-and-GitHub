@@ -1,0 +1,5 @@
+To add username to the git we use 'git config --global user.name "Srijan kumar"' and to set email we use 'git config --global user.email "Srijan kumar"' ,here use the email you used to login to git and github.
+While commiting if you dn't want to write the commit massage in the terminal you can open it to the editor by running the command 'git commit' but in this case the default editor must be set thus use this command before that 'git config --global core.editor "code --wait"'.
+to see the git configurations we can use the command 'cat .gitconfig'
+                                                .gitignore
+This is just a file and used to store sensitive information that u want not to get tracked. In the terminal use 'touch .gitignore' and add the filename init you want not to be tracked. To know which files we should hide from getting tracked we should go to .gitignore generator on chrome and add thd type of files you are working in and that will give you the name of the files and thus add those file name directly after copying from that into .gitignore.

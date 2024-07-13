@@ -1,0 +1,9 @@
+To get the info about what is the difference of a file between its initial stages and in it now then we use diff commands.
+'git diff' gives the comparision between the files at last commit and after last commit. Even we can mention a file name if we want to see the diffrence in a file. If we want to see the difference in a file between non consecutive commits we ca use 'git log --oneline' and thus geeting the id we use 'git diff id1 id2'.
+'git diff --staged' to see the difference between the staged files.
+The same file is mentioned as a and b , and the + and - symbol represents the things added and removed and alsothis can be changed by simply changing the order of files of different commits.
+If we try to change our branch without commiting the changes in the files in the current directory then we should use 'git stash' after we come back to the branch we can use git stash pop to get back the recently stashed changes.
+When we use git stash the data will be stored in the form of stashes in our local repository. By default, the data will be stored in the git/refs/stash file. In this file, all the references are stored and the actual data is stored in the .git/objects directory, just like other Git objects. 
+The command is used to list all the stashes that have been created 'git stash list'
+'git stash apply' and 'git stash pop' do the same thing that apply the previous stash to working file but alike stash apply ,pop removes the data from stash file.
+git stash apply stash@{0} to apply that particular stash

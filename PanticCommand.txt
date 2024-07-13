@@ -1,0 +1,3 @@
+Git rebase it simply does merging but simply merges everything on the same timeline and simply rewrites the history.
+This is not meant to be run on the master or the main branch it is only used when you are on the side branch.Once you rebase one branch with the master say then that get merged with the master and and further changes are added will appear to be in the same line but if we make changes to the master branch then again it(master) will appear to be emerging as a separate branch 
+'git rebase master'

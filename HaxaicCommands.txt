@@ -1,0 +1,5 @@
+Push request from git require a ssh key to be generated and activated first.
+To convert branch name of master to main use command 'git branch -M main'.
+Create a remote repository on github in which you want to push your code and in the code section copy the url and use command 'git remote add origin https://github.com/srijankumar8969/Git-learn.git' then after that to see whether the remote repo is ready for push and ftch rquest use command 'git remote -v' and to push the code into the repository use 'git push -u origin main'. If the command is run without -u added then the remote repo will not be upstream for pushing then each time if you want to push to github use the whol command. But if we use -u then we can directly use git push for each consecutive push.
+If an error of another repo pushing to same ref occur use the command 'git pull origin master --allow-unrelated-histories'.
+For cloning a reo from our remote repo to local repo we can use the command 'git clone https://github.com/srijankumar8969/Drum-kit.git'
